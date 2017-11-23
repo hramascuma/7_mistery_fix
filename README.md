@@ -21,15 +21,13 @@ from quadratic_equation import *
 
 get_roots(1, 2, -3)
 ```
-
 либо
 ```bash
 import quadratic_equation
-```
+
 пример вызова функции:
-
 quadratic_equation.get_roots(1, 2, -3)
-
+```
 # Как запустить
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
