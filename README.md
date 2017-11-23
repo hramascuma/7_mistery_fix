@@ -14,19 +14,17 @@ tests - unittest для проверки выполнения отдельных
 Это можно сделать тремя способами:
 ```bash
 from quadratic_equation import get_roots
-
 from quadratic_equation import *
 
 #пример вызова функции:
-
-get_roots(1, 2, -3)
+get_roots(1, 2, -3)  #-3.0 1.0
 ```
 либо
 ```bash
 import quadratic_equation
 
-пример вызова функции:
-quadratic_equation.get_roots(1, 2, -3)
+#пример вызова функции:
+quadratic_equation.get_roots(1, 2, -3) #-3.0 1.0
 ```
 # Как запустить
 
